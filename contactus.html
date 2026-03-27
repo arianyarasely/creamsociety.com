@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Crème Society</title>
+        <link rel="stylesheet" href="contactus.css">
+        <script src="contactus.js" defer></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <a href="home.html">Crème Society</a>
+                </div>
+
+                <nav class="navbar">
+                    <a href="bulletin.html">The Crème Bulletin</a>
+                    <a href="products.html">Les Délices</a>
+                    <a href="contactus.html">Contact Us</a>
+                    <a href="aboutus.html">About Us</a>
+                    <a href="home.html">Home</a>
+                </nav>
+            </header>
+        </div>
+    </body>
+    <div id="preloader"></div>
+    <main>
+        <div class="tittle">
+            <h1><center> ~ Contact Us ~</center></h1>
+        </div>
+        <div class="table1">
+        <table>
+            <tr>
+                <td>
+                    <div class="number">
+                    <h1>The Direct Line</h1>
+                    <br>
+                    <table>
+                        <tr>
+                            <th>Phone Number:</th>
+                            <td> 625-6645</td>
+                        </tr>
+                        <tr>
+                            <th>Email Address:</th>
+                            <td> cremesociety@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th>Whats App Number:</th>
+                            <td>+501 625 - 6645</td>
+                        </tr>
+                    </table>
+                    </div>
+                </td>
+                <td>
+                    <div class="location">
+                    <h1>Our Location</h1>
+                    <br>
+                    <center>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1677.2976132460763!2d-88.38679003317439!3d18.391106105977848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5b966bfbd1d5db%3A0xf060c42b17c20018!2sCorozal%20Central%20Park!5e1!3m2!1sen!2sbz!4v1769387797509!5m2!1sen!2sbz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </center>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        </div>
+        
+        <div class="openhours">
+            <h1>Open Hours</h1>
+            <br>
+            <table>
+                <tr>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thurday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                    <th>Sunday</th>
+                </tr>
+                <tr>
+                    <td>8:00 a.m. – 7:00 p.m.</td>
+                    <td>8:00 a.m. – 7:00 p.m.</td>
+                    <td>8:00 a.m. – 7:00 p.m.</td>
+                    <td>8:00 a.m. – 7:00 p.m.</td>
+                    <td>8:00 a.m. – 7:00 p.m.</td>
+                    <td>9:00 a.m. – 8:00 p.m.</td>
+                    <td>Church Day</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="social-wrapper">
+            <div class="social-box icons-only">
+                <center><h3>Our Soical Presence:</h3></center> 
+                <br>
+                <br>
+                <br>
+                <br>
+                <a href="https://www.instagram.com/creme_society_?igsh=NzBxMTE3NW9ocG5r" class="social-link instagram" aria-label="Instagram">
+                    <img src="supplyi/iglogo.png" height="75">
+                    <i class="fab fa-instagram"></i>
+                </a>
+
+                <a href="https://www.tiktok.com/en/" class="social-link facebook" aria-label="Facebook">
+                    <img src="supplyi/ttlogo.png" height="75">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+
+                <a href="https://www.facebook.com/share/17GyE7pahR/?mibextid=wwXIfr" class="social-link tiktok" aria-label="TikTok">
+                    <image src="supplyi/fcbklogo.png" height="75"></image>
+                    <i class="fab fa-tiktok"></i>
+                </a>
+            </div>
+        </div>
+
+
+        <br>
+
+        <div class="FQA">
+            <center>
+                <h1>Feel Free to Contact us</h1>
+                <br>
+                <h2>Ask US any Question or Request</h2>
+            </center>
+        </div>
+    </main>
+
+<div class="mascot-container">
+     <div class="speech-bubble" id="speech-bubble">Hi! I'm Pastry! Click me! 🍰</div>
+        
+        <div class="mascot-wrapper" onclick="toggleChat()">
+            <img src="/supplyi/mascot1.png" alt="Mascot" id="mascot-img" class="mascot-idle">
+        </div>
+
+        <div class="chat-window" id="chat-window">
+            <div class="chat-header">
+                <span>Chat with Pastry</span>
+                <button class="close-btn" onclick="toggleChat()">×</button>
+            </div>
+            <div class="chat-logs" id="chat-logs">
+                <div class="bot-msg">Hello! Ask me anything about sweets or just say hi!</div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="user-input" placeholder="Type a message..." autocomplete="off">
+                <button id="send-btn" onclick="sendMessage()">Send</button>
+            </div>
+    </div>
+</div>
+
+<footer class="creme-footer">
+  <div class="footer-container">
+
+
+    <div class="footer-brand">
+      <h3>Crème Society</h3>
+      <p>Refinement in every bite.</p>
+    </div>
+
+
+    <div class="footer-links">
+      <h4>The Society</h4>
+      <ul>
+        <li><a href="home.html">Society Home</a></li>
+        <li><a href="aboutus.html">About the Society</a></li>
+        <li><a href="products.html">The Crème Collection</a></li>
+        <li><a href="contactus.html">Connect with the Society</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Get in Touch</h4>
+      <p>📍 Find the Society</p>
+      <p>📞 +501 625-6645</p>
+      <p>📧 creamsociety@gmail.com</p>
+    </div>
+
+    <div class="footer-social">
+      <h4>Join the Circle</h4>
+      <a href="https://www.instagram.com/">Instagram</a><br>
+      <a href="https://www.tiktok.com/en/">TikTok</a><br>
+      <a href="https://www.facebook.com/">Facebook</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Crème Society. All rights reserved.</p>
+    <p>Crafted with care and love by the Society.</p>
+  </div>
+</footer>
+
+</html>

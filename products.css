@@ -1,0 +1,986 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Libertinus+Keyboard&family=Momo+Signature&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Fredericka+the+Great&family=Libertinus+Keyboard&family=Momo+Signature&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Fredericka+the+Great&family=Libertinus+Keyboard&family=Momo+Signature&family=Oleo+Script+Swash+Caps:wght@400;700&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Fredericka+the+Great&family=Lexend:wght@100..900&family=Libertinus+Keyboard&family=Momo+Signature&family=Oleo+Script+Swash+Caps:wght@400;700&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&family=Fredericka+the+Great&family=Lexend:wght@100..900&family=Libertinus+Keyboard&family=Momo+Signature&family=Oleo+Script+Swash+Caps:wght@400;700&family=Pacifico&family=Yeseva+One&display=swap');
+
+
+*{
+    margin: auto;
+    padding: 0%;
+}
+.wrapper{
+    margin: auto;
+    width: 1000%;
+}
+header{
+    width: 100%;
+    height: 95px;
+    position: fixed;
+    background-color: rgb(172, 136, 211);
+}
+.logo{
+    float: left;
+    margin-bottom: 30px;
+    line-height: 95px;
+}
+.logo img{
+    padding: 5%;
+}
+.logo a{
+    color:beige;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Pacifico';
+    font-size: 180%;
+    padding: 10px;
+}
+#preloader{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('/supplyi/logohb.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(255, 254, 228);
+    z-index: 5000;
+}
+nav{
+    float: right;
+    line-height: 85px;
+}
+nav a{
+    font-family: 'Lexend';
+    text-decoration: none;
+    float: right;
+    margin-right: 20px;
+    padding: 5px;
+    font-size: 110%;
+    color: rgb(255, 201, 255);
+}
+nav a:hover{
+    background-color: rgb(129, 95, 161);
+    color: antiquewhite;
+    font-weight: 200;
+    font-size: larger;
+    size: 100%;
+}
+body{
+    background-image: url(supplyi/backg3.jpg);
+}
+main{
+    padding-top: 80px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+.like-container {
+    float: right;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    user-select: none;
+}
+
+.like-btn {
+    background: none;
+    border: none;
+    font-size: 26px;
+    cursor: pointer;
+    color: #fff9f9;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.like-btn:hover {
+    transform: scale(1.1);
+}
+
+.like-btn.liked {
+    color: #e0245e;
+}
+
+.like-count {
+    font-family: 'Lexend';
+    font-size: 14px;
+    color: #555;
+}
+
+
+.donuts h1{
+    font-family: 'Fredericka The Great';
+    font-weight: lighter;
+    font-size: 70px;
+}
+.don1{
+    float: inline-start;
+    background-color: rgb(248, 189, 189);
+    padding: 15px;
+    width: 13%;
+    height: 40%;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.don1 img{
+    border-radius: 100%;
+}
+.don1 h5{
+    font-family: 'Lexend';
+    font-weight: 500;
+    font-size: 15px;
+}
+.don1 h6{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 13px;
+}
+.don1 h3{
+    font-family: 'Fredericka The Great';
+    font-weight: 500;
+    font-size: 30px;
+}
+.don2{
+    float: inline-start;
+    background-color: rgb(248, 189, 189);
+    padding: 15px;
+    width: 13%;
+    height: 40%;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.don2 img{
+    border-radius: 100%;
+}
+.don2 h5{
+    font-family: 'Lexend';
+    font-weight: 500;
+    font-size: 15px;
+}
+.don2 h6{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 13px;
+}
+.don2 h3{
+    font-family: 'Fredericka The Great';
+    font-weight: 500;
+    font-size: 30px;
+}
+.don3{
+    float: inline-start;
+    background-color: rgb(248, 189, 189);
+    padding: 15px;
+    width: 13%;
+    height: 40%;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.don3 img{
+    border-radius: 100%;
+}
+.don3 h5{
+    font-family: 'Lexend';
+    font-weight: 500;
+    font-size: 15px;
+}
+.don3 h6{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 13px;
+}
+.don3 h3{
+    font-family: 'Fredericka The Great';
+    font-weight: 500;
+    font-size: 30px;
+}
+.don4{
+    float: inline-start;
+    background-color: rgb(248, 189, 189);
+    padding: 15px;
+    width: 13%;
+    height: 40%;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.don4 img{
+    border-radius: 100%;
+}
+.don4 h5{
+    font-family: 'Lexend';
+    font-weight: 500;
+    font-size: 15px;
+}
+.don4 h6{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 13px;
+}
+.don4 h3{
+    font-family: 'Fredericka The Great';
+    font-weight: 500;
+    font-size: 30px;
+}
+.don5{
+    float: inline-start;
+    background-color: rgb(248, 189, 189);
+    padding: 15px;
+    width: 13%;
+    height: 40%;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.don5 img{
+    border-radius: 100%;
+}
+.don5 h5{
+    font-family: 'Lexend';
+    font-weight: 500;
+    font-size: 15px;
+}
+.don5 h6{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 13px;
+}
+.don5 h3{
+    font-family: 'Fredericka The Great';
+    font-weight: 500;
+    font-size: 30px;
+}
+.don6{
+    float: inline-start;
+    background-color: rgb(248, 189, 189);
+    padding: 15px;
+    width: 13%;
+    height: 40%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+.don6 img{
+    border-radius: 100%;
+}
+.don6 h5{
+    font-family: 'Lexend';
+    font-weight: 500;
+    font-size: 15px;
+}
+.don6 h6{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 13px;
+}
+.don6 h3{
+    font-family: 'Fredericka The Great';
+    font-weight: 500;
+    font-size: 30px;
+}
+
+
+
+
+
+.muffins h1{
+    padding: 60px;
+    font-family: 'Fredericka The Great';
+    font-weight: lighter;
+    font-size: 70px;
+}
+.muff1{
+    float: inline-start;
+    background-color: rgb(122, 197, 172);
+    padding: 15px;
+    width: 20%;
+    height: 40%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.muff1 img{
+    border-radius: 100%;
+}
+.muff1 h5{
+    font-family: 'Lexend';
+    font-weight: 500;
+    font-size: 15px;
+}
+.muff1 h6{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 13px;
+}
+.muff1 h3{
+    font-family: 'Fredericka The Great';
+    font-weight: 500;
+    font-size: 30px;
+}
+.muff2{
+    float: inline-start;
+    background-color: rgb(122, 197, 172);
+    padding: 15px;
+    width: 20%;
+    height: 40%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.muff2 img{
+    border-radius: 100%;
+}
+.muff2 h5{
+    font-family: 'Lexend';
+    font-weight: 500;
+    font-size: 15px;
+}
+.muff2 h6{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 13px;
+}
+.muff2 h3{
+    font-family: 'Fredericka The Great';
+    font-weight: 500;
+    font-size: 30px;
+}
+.muff3{
+    float: inline-start;
+    background-color: rgb(122, 197, 172);
+    padding: 15px;
+    width: 20%;
+    height: 40%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.muff3 img{
+    border-radius: 100%;
+}
+.muff3 h5{
+    font-family: 'Lexend';
+    font-weight: 500;
+    font-size: 15px;
+}
+.muff3 h6{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 13px;
+}
+.muff3 h3{
+    font-family: 'Fredericka The Great';
+    font-weight: 500;
+    font-size: 30px;
+}
+.muff4{
+    float: inline-start;
+    background-color: rgb(122, 197, 172);
+    padding: 15px;
+    width: 20%;
+    height: 40%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.muff4 img{
+    border-radius: 100%;
+}
+.muff4 h5{
+    font-family: 'Lexend';
+    font-weight: 500;
+    font-size: 15px;
+}
+.muff4 h6{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 13px;
+}
+.muff4 h3{
+    font-family: 'Fredericka The Great';
+    font-weight: 500;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+.tarts h1{
+    padding-top: 200px;
+    font-family: 'Fredericka The Great';
+    font-weight: lighter;
+    font-size: 70px;
+}
+.tart1{
+    float: inline-start;
+    background-color: rgb(194, 168, 218);
+    padding: 15px;
+    width: 13%;
+    height: 40%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.tart1 img{
+    border-radius: 100%;
+}
+.tart1 h5{
+    font-family: 'Lexend';
+    font-weight: 500;
+    font-size: 15px;
+}
+.tart1 h6{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 13px;
+}
+.tart1 h3{
+    font-family: 'Fredericka The Great';
+    font-weight: 500;
+    font-size: 30px;
+}
+.tart2{
+    float: inline-start;
+    background-color: rgb(194, 168, 218);
+    padding: 15px;
+    width: 13%;
+    height: 40%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.tart2 img{
+    border-radius: 100%;
+}
+.tart2 h5{
+    font-family: 'Lexend';
+    font-weight: 500;
+    font-size: 15px;
+}
+.tart2 h6{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 13px;
+}
+.tart2 h3{
+    font-family: 'Fredericka The Great';
+    font-weight: 500;
+    font-size: 30px;
+}
+.tart3{
+    float: inline-start;
+    background-color: rgb(194, 168, 218);
+    padding: 15px;
+    width: 13%;
+    height: 40%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.tart3 img{
+    border-radius: 100%;
+}
+.tart3 h5{
+    font-family: 'Lexend';
+    font-weight: 500;
+    font-size: 15px;
+}
+.tart3 h6{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 13px;
+}
+.tart3 h3{
+    font-family: 'Fredericka The Great';
+    font-weight: 500;
+    font-size: 30px;
+}
+.tart4{
+    float: inline-start;
+    background-color: rgb(194, 168, 218);
+    padding: 15px;
+    width: 13%;
+    height: 40%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.tart4 img{
+    border-radius: 100%;
+}
+.tart4 h5{
+    font-family: 'Lexend';
+    font-weight: 500;
+    font-size: 15px;
+}
+.tart4 h6{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 13px;
+}
+.tart4 h3{
+    font-family: 'Fredericka The Great';
+    font-weight: 500;
+    font-size: 30px;
+}
+.tart5{
+    float: inline-start;
+    background-color: rgb(194, 168, 218);
+    padding: 15px;
+    width: 13%;
+    height: 40%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.tart5 img{
+    border-radius: 100%;
+}
+.tart5 h5{
+    font-family: 'Lexend';
+    font-weight: 500;
+    font-size: 15px;
+}
+.tart5 h6{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 13px;
+}
+.tart5 h3{
+    font-family: 'Fredericka The Great';
+    font-weight: 500;
+    font-size: 30px;
+}
+.tart6{
+    float: inline-start;
+    background-color: rgb(194, 168, 218);
+    padding: 15px;
+    width: 13%;
+    height: 40%;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.tart6 img{
+    border-radius: 100%;
+}
+.tart6 h5{
+    font-family: 'Lexend';
+    font-weight: 500;
+    font-size: 15px;
+}
+.tart6 h6{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 13px;
+}
+.tart6 h3{
+    font-family: 'Fredericka The Great';
+    font-weight: 500;
+    font-size: 30px;
+}
+
+
+
+
+
+.cakes h1{
+    font-family: 'Fredericka The Great';
+    font-weight: lighter;
+    font-size: 70px;
+    padding-top: 100px;
+}
+.cake1{
+    float: inline-start;
+    background-color:rgb(248, 248, 178);
+    padding: 15px;
+    width: 13%;
+    height: 40%;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.cake1 img{
+    border-radius: 100%;
+}
+.cake1 h5{
+    font-family: 'Lexend';
+    font-weight: 500;
+    font-size: 15px;
+}
+.cake1 h6{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 13px;
+}
+.cake1 h3{
+    font-family: 'Fredericka The Great';
+    font-weight: 500;
+    font-size: 30px;
+}
+.cake2{
+    float: inline-start;
+    background-color:rgb(248, 248, 178);
+    padding: 15px;
+    width: 13%;
+    height: 40%;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.cake2 img{
+    border-radius: 100%;
+}
+.cake2 h5{
+    font-family: 'Lexend';
+    font-weight: 500;
+    font-size: 15px;
+}
+.cake2 h6{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 13px;
+}
+.cake2 h3{
+    font-family: 'Fredericka The Great';
+    font-weight: 500;
+    font-size: 30px;
+}
+.cake3{
+    float: inline-start;
+    background-color:rgb(248, 248, 178);
+    padding: 15px;
+    width: 13%;
+    height: 40%;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.cake3 img{
+    border-radius: 100%;
+}
+.cake3 h5{
+    font-family: 'Lexend';
+    font-weight: 500;
+    font-size: 15px;
+}
+.cake3 h6{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 13px;
+}
+.cake3 h3{
+    font-family: 'Fredericka The Great';
+    font-weight: 500;
+    font-size: 30px;
+}
+.cake4{
+    float: inline-start;
+    background-color:rgb(248, 248, 178);
+    padding: 15px;
+    width: 13%;
+    height: 40%;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.cake4 img{
+    border-radius: 100%;
+}
+.cake4 h5{
+    font-family: 'Lexend';
+    font-weight: 500;
+    font-size: 15px;
+}
+.cake4 h6{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 13px;
+}
+.cake4 h3{
+    font-family: 'Fredericka The Great';
+    font-weight: 500;
+    font-size: 30px;
+}
+.cake5{
+    float: inline-start;
+    background-color:rgb(248, 248, 178);
+    padding: 15px;
+    width: 13%;
+    height: 40%;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.cake5 img{
+    border-radius: 100%;
+}
+.cake5 h5{
+    font-family: 'Lexend';
+    font-weight: 500;
+    font-size: 15px;
+}
+.cake5 h6{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 13px;
+}
+.cake5 h3{
+    font-family: 'Fredericka The Great';
+    font-weight: 500;
+    font-size: 30px;
+}
+.cake6{
+    float: inline-start;
+    background-color:rgb(248, 248, 178);
+    padding: 15px;
+    width: 13%;
+    height: 40%;
+    border-radius: 20px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.cake6 img{
+    border-radius: 100%;
+}
+.cake6 h5{
+    font-family: 'Lexend';
+    font-weight: 500;
+    font-size: 15px;
+}
+.cake6 h6{
+    font-family: 'Lexend';
+    font-weight: 400;
+    font-size: 13px;
+}
+.cake6 h3{
+    font-family: 'Fredericka The Great';
+    font-weight: 500;
+    font-size: 30px;
+}
+.bye{
+    font-family: 'Pacifico';
+    font-weight: 300;
+    font-size: 45px;
+}
+.bye h3{
+    font-family: 'Fredericka the Great';
+    font-weight: 300;
+    font-size: 30px;
+}
+
+:root {
+    --cake-pink: #f7b1c1;
+    --cake-dark: #d68092;
+    --bg-white: rgba(255, 255, 255, 0.95);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff0f3;
+    margin: 0;
+}
+
+.mascot-container {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/* Animations */
+@keyframes hover {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+}
+
+@keyframes wave-action {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(15deg) scale(1.1); }
+    75% { transform: rotate(-15deg) scale(1.1); }
+    100% { transform: rotate(0deg); }
+}
+
+.mascot-idle {
+    width: 160px;
+    cursor: pointer;
+    animation: hover 3s ease-in-out infinite;
+    transition: filter 0.3s;
+}
+
+.mascot-idle:hover {
+    filter: drop-shadow(0 0 10px var(--cake-pink));
+}
+
+.mascot-wave {
+    width: 160px;
+    animation: wave-action 0.5s ease-in-out 2;
+}
+
+/* Speech Bubble */
+.speech-bubble {
+    background: white;
+    border: 3px solid var(--cake-pink);
+    border-radius: 20px;
+    padding: 12px 18px;
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #555;
+    max-width: 220px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    position: relative;
+    animation: hover 3s ease-in-out infinite;
+}
+
+/* Chat Window Styling */
+.chat-window {
+    display: none; /* Controlled by JS */
+    width: 320px;
+    height: 450px;
+    background: var(--bg-white);
+    backdrop-filter: blur(10px);
+    border: 2px solid var(--cake-pink);
+    border-radius: 20px;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+    margin-bottom: 20px;
+}
+
+.chat-header {
+    background: var(--cake-pink);
+    color: white;
+    padding: 15px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.chat-logs {
+    flex: 1;
+    padding: 15px;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bot-msg, .user-msg {
+    padding: 10px 14px;
+    border-radius: 18px;
+    font-size: 14px;
+    line-height: 1.4;
+    max-width: 85%;
+}
+
+.bot-msg { 
+    background: #f1f1f1; 
+    color: #333; 
+    align-self: flex-start; 
+    border-bottom-left-radius: 2px;
+}
+
+.user-msg { 
+    background: var(--cake-pink); 
+    color: white; 
+    align-self: flex-end; 
+    border-bottom-right-radius: 2px;
+}
+
+.chat-input-area {
+    display: flex;
+    padding: 15px;
+    background: #fff;
+    border-top: 1px solid #eee;
+}
+
+input {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 25px;
+    outline: none;
+    padding-left: 15px;
+}
+
+#send-btn {
+    background: var(--cake-pink);
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    margin-left: 8px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+#send-btn:hover {
+    background: var(--cake-dark);
+}
+
+
+.creme-footer {
+  background-color: rgb(129, 95, 161);
+  color: #f6d4d4;
+  font-family: 'Libre Baskerville';
+  padding: 40px 20px 20px;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-brand h3 {
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 8px;
+}
+
+.footer-links a,
+.footer-social a {
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-links a:hover,
+.footer-social a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 0.9em;
+  border-top: 1px solid #f5dfdf;
+  padding-top: 15px;
+}

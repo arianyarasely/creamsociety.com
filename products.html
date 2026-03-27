@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Crème Society</title>
+        <link rel="stylesheet" href="products.css">
+        <script src="product.js" defer></script>
+    </head>
+    <body>
+        <div class="wrapper">
+            <header>
+                <div class="logo">
+                    <a href="home.html">Crème Society</a>
+                </div>
+
+                <nav class="navbar">
+                    <a href="bulletin.html">The Crème Bulletin</a>
+                    <a href="products.html">Les Délices</a>
+                    <a href="contactus.html">Contact Us</a>
+                    <a href="aboutus.html">About Us</a>
+                    <a href="home.html">Home</a>
+                </nav>
+            </header>
+        </div>
+    </body>
+    <div id="preloader"></div>
+    <main class="product-menu">
+        <div class="item-menu">
+            <nav class="i-navbar">
+                <a href="#section-donuts">Donuts</a>
+                <a href="#section-muffins">Muffins</a>
+                <a href="#section-tarts">Mini Tarts</a>
+                <a href="#section-cakes">Cakes</a>
+            </nav>
+        </div>
+    </main>
+
+<script>
+function toggleLike(button) {
+  const countSpan = button.nextElementSibling;
+  let count = parseInt(countSpan.innerText);
+
+  if (button.classList.contains("liked")) {
+    button.classList.remove("liked");
+    countSpan.innerText = count - 1;
+  } else {
+    button.classList.add("liked");
+    countSpan.innerText = count + 1;
+  }
+}
+</script>
+
+
+    <main class="main1">
+        <div class="donuts">
+            <h1 id="section-donuts"><center> - Donuts - </center></h1>
+            <div class="don1">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="supplyi/don1.jpg" height="175">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>
+                                Glazed Pink Donut
+                            </h5>
+                            <h6>
+                                Price:
+                            </h6>
+                            <h3>
+                                $2.00
+                            </h3>
+                            <div class="like-container">
+                                <button class="like-btn" onclick="toggleLike(this)">
+                                    ❤
+                                </button>
+                                <span class="like-count">0</span>
+                                <script ></script>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="don2">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="supplyi/don2.jpg" height="175">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>
+                                Chocolate Glazed Donut
+                            </h5>
+                            <h6>
+                                Price:
+                            </h6>
+                            <h3>
+                                $2.00
+                            </h3>
+                            <div class="like-container">
+                                <button class="like-btn" onclick="toggleLike(this)">
+                                    ❤
+                                </button>
+                                <span class="like-count">0</span>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="don3">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="supplyi/don3.jpg" height="175">
+                        </td>
+                    </tr>
+                        <td>
+                            <h5>
+                                Nutty Donut
+                            </h5>
+                            <h6>
+                                Price:
+                            </h6>
+                            <h3>
+                                $2.50
+                            </h3>
+                            <div class="like-container">
+                                <button class="like-btn" onclick="toggleLike(this)">
+                                    ❤
+                                </button>
+                                <span class="like-count">0</span>
+                                <script ></script>
+                            </div>
+                        </td>
+                </table>
+            </div>
+            <div class="don4">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="supplyi/don4.jpg" height="175">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>
+                                Matcha Donut
+                            </h5>
+                            <h6>
+                                Price
+                            </h6>
+                            <h3>
+                                $3.00
+                            </h3>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                    ❤
+                                </button>
+                                <span class="like-count">0</span>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="don5">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="supplyi/don5.jpg" height="175">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>
+                                Purple Glazed Donut
+                            </h5>
+                            <h6>
+                                Price:
+                            </h6>
+                            <h3>
+                                $2.00
+                            </h3>
+                            <div class="like-container">
+                                <button class="like-btn" onclick="toggleLike(this)">
+                                    ❤
+                                </button>
+                                <span class="like-count">0</span>
+                                <script ></script>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="don6">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="supplyi/don6.jpg" height="175"
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> 
+                            <h5>
+                                Blue Donut
+                            </h5>
+                            <h6>
+                                Price:
+                            </h6>
+                            <h3>
+                                $2.00
+                            </h3>
+                            <div class="like-container">
+                                <button class="like-btn" onclick="toggleLike(this)">
+                                    ❤
+                                </button>
+                                <span class="like-count">0</span>
+                                <script ></script>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <br>
+
+    <main class="main2">
+        <div class="muffins">
+            <h1 id="section-muffins"><center> - Muffins - </center></h1>
+            <div class="muff1">
+                <table>
+                    <tr>
+                        <td>
+                        <img src="supplyi/muff1.jpg" height="300">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>
+                                Blueberry Muffin
+                            </h5>
+                            <h6>
+                                Price:
+                            </h6>
+                            <h3>
+                                $2.25
+                            </h3>
+                            <div class="like-container">
+                                <button class="like-btn" onclick="toggleLike(this)">
+                                    ❤
+                                </button>
+                                <span class="like-count">0</span>
+                                <script ></script>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="muff2">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="supplyi/muff2.jpg" height="300">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>
+                                Chocolate Muffin
+                            </h5>
+                            <h6>
+                                Price:
+                            </h6>
+                            <h3>
+                                $2.00
+                            </h3>
+                            <div class="like-container">
+                                <button class="like-btn" onclick="toggleLike(this)">
+                                    ❤
+                                </button>
+                                <span class="like-count">0</span>
+                                <script ></script>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="muff3">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="supplyi/muff3.jpg" height="300">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>
+                                Raspberry Muffin
+                            </h5>
+                            <h6>
+                                Price:
+                            </h6>
+                            <h3>
+                                $2.25
+                            </h3>
+                            <div class="like-container">
+                                <button class="like-btn" onclick="toggleLike(this)">
+                                    ❤
+                                </button>
+                                <span class="like-count">0</span>
+                                <script ></script>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="muff4">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="supplyi/muff4.jpg" height="300">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>
+                                Strawberry Muffin
+                            </h5>
+                            <h6>
+                                Price:
+                            </h6>
+                            <h3>
+                                $2.50
+                            </h3>
+                            <div class="like-container">
+                                <button class="like-btn" onclick="toggleLike(this)">
+                                    ❤
+                                </button>
+                                <span class="like-count">0</span>
+                                <script ></script>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <br>
+    <br>
+
+    <main class="main3">
+        <div class="tarts">
+            <h1 id="section-tarts"><center> - Mini Tarts - </center></h1>
+            <div class="tart1">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="supplyi/tart1.jpg" height="200">
+                        </td>
+                    </tr>
+                    <tr>
+                        <tr>
+                            <td>
+                                <h5>
+                                    Cocktail Mix
+                                </h5>
+                                <h6>
+                                    Price:
+                                </h6>
+                                <h3>
+                                    $5.00
+                                </h3>
+                                <div class="like-container">
+                                <button class="like-btn" onclick="toggleLike(this)">
+                                    ❤
+                                </button>
+                                <span class="like-count">0</span>
+                                <script ></script>
+                            </div>
+                            </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tart2">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="supplyi/tart2.jpg" height="200"
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>
+                                Berry Revolution
+                            </h5>
+                            <h6>
+                                Price:
+                            </h6>
+                            <h3>
+                                $5.00
+                            </h3>
+                            <div class="like-container">
+                                <button class="like-btn" onclick="toggleLike(this)">
+                                    ❤
+                                </button>
+                                <span class="like-count">0</span>
+                                <script ></script>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tart3">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="supplyi/tart3.jpg" height="200">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>
+                                Strawberry Solo
+                            </h5>
+                            <h6>
+                                Price:
+                            </h6>
+                            <h3>
+                                $4.00
+                            </h3>
+                            <div class="like-container">
+                                <button class="like-btn" onclick="toggleLike(this)">
+                                    ❤
+                                </button>
+                                <span class="like-count">0</span>
+                                <script ></script>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tart4">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="supplyi/tart4.jpg" height="200">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>
+                                Raspberry Tart
+                            </h5>
+                            <h6>
+                                Price:
+                            </h6>
+                            <h3>
+                                $4.00
+                            </h3>
+                            <div class="like-container">
+                                <button class="like-btn" onclick="toggleLike(this)">
+                                    ❤
+                                </button>
+                                <span class="like-count">0</span>
+                                <script ></script>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tart5">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="supplyi/tart5.jpg" height="200>"
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>
+                                Banana Cream
+                            </h5>
+                            <h6>
+                                Price:
+                            </h6>
+                            <h3>
+                                $4.00
+                            </h3>
+                            <div class="like-container">
+                                <button class="like-btn" onclick="toggleLike(this)">
+                                    ❤
+                                </button>
+                                <span class="like-count">0</span>
+                                <script ></script>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="tart6">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="supplyi/tart6.jpg" height="200">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>
+                                The Cherry On Top
+                            </h5>
+                            <h6>
+                                Price:
+                            </h6>
+                            <h3>
+                                $4.50
+                            </h3>
+                            <div class="like-container">
+                                <button class="like-btn" onclick="toggleLike(this)">
+                                    ❤
+                                </button>
+                                <span class="like-count">0</span>
+                                <script ></script>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <br>
+
+    <main class="main4">
+        <div class="cakes">
+            <h1 id="section-cakes"><center> - Cakes - </center></h1>
+            <div class="cake1">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="supplyi/cake1.jpg" height="200">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>
+                                Strawberry Short Cake
+                            </h5>
+                            <h6>
+                                Slice Price
+                            </h6>
+                            <h3>
+                                $2.50
+                            </h3>
+                            <h6>
+                                Whole Price
+                            </h6>
+                            <h3>
+                                $25.95
+                            </h3>
+                            <div class="like-container">
+                                <button class="like-btn" onclick="toggleLike(this)">
+                                    ❤
+                                </button>
+                                <span class="like-count">0</span>
+                                <script ></script>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="cake2">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="supplyi/cake2.jpg" height="200"> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>
+                                Blueberry Cheese Cake
+                            </h5>
+                            <h6>
+                                Slice Price
+                            </h6>
+                            <h3>
+                                $1.50
+                            </h3>
+                            <h6>
+                                Whole Price
+                            </h6>
+                            <h3>
+                                $19.95
+                            </h3>
+                            <div class="like-container">
+                                <button class="like-btn" onclick="toggleLike(this)">
+                                    ❤
+                                </button>
+                                <span class="like-count">0</span>
+                                <script ></script>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="cake3">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="supplyi/cake3.jpg" height="200">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>
+                                Red Velvet
+                            </h5>
+                            <h6>
+                                Slice Price
+                            </h6>
+                            <h3>
+                                $2.00
+                            </h3>
+                            <h6>
+                                Whole Price
+                            </h6>
+                            <h3>
+                                $18.95
+                            </h3>
+                            <div class="like-container">
+                                <button class="like-btn" onclick="toggleLike(this)">
+                                    ❤
+                                </button>
+                                <span class="like-count">0</span>
+                                <script ></script>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="cake4">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="supplyi/cake4.jpg" height="200">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>
+                                Cherry-Chocolate Cake
+                            </h5>
+                            <h6>
+                                Slice Price
+                            </h6>
+                            <h3>
+                                $2.50
+                            </h3>
+                            <h6>
+                                Whole Price
+                            </h6>
+                            <h3>
+                                $26.95
+                            </h3>
+                            <div class="like-container">
+                                <button class="like-btn" onclick="toggleLike(this)">
+                                    ❤
+                                </button>
+                                <span class="like-count">0</span>
+                                <script ></script>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="cake5" >
+                <table>
+                    <tr>
+                        <td>
+                            <img src="supplyi/cake5.jpg" height="200">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>
+                                CocoLemon Cake
+                            </h5>
+                            <h6>
+                                Slice Price
+                            </h6>
+                            <h3>
+                                $2.50
+                            </h3>
+                            <h6>
+                                Whole Price
+                            </h6>
+                            <h3>
+                                $25.95
+                            </h3>
+                            <div class="like-container">
+                                <button class="like-btn" onclick="toggleLike(this)">
+                                    ❤
+                                </button>
+                                <span class="like-count">0</span>
+                                <script ></script>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="cake6">
+                <table>
+                    <tr>
+                        <td>
+                            <img src="supplyi/cake6.jpg" height="200">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h5>
+                                Fruit Cake
+                            </h5>
+                            <h6>
+                                Slice Price
+                            </h6>
+                            <h3>
+                                $4.50
+                            </h3>
+                            <h6>
+                                Whole Price
+                            </h6>
+                            <h3>
+                                $30.50
+                            </h3>
+                            <div class="like-container">
+                                <button class="like-btn" onclick="toggleLike(this)">
+                                    ❤
+                                </button>
+                                <span class="like-count">0</span>
+                                <script ></script>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="bye">
+            <center>
+             <h2>Creme Society</h2>
+             <h3> Always made with high quality and love.</h3>
+            </center>
+        </div>
+    </main>
+    <br>
+    <br>
+    <br>
+
+<div class="mascot-container">
+        <div class="speech-bubble" id="speech-bubble">Hi! I'm Pastry! Click me! 🍰</div>
+        
+        <div class="mascot-wrapper" onclick="toggleChat()">
+            <img src="/supplyi/mascot1.png" alt="Mascot" id="mascot-img" class="mascot-idle">
+        </div>
+
+        <div class="chat-window" id="chat-window">
+            <div class="chat-header">
+                <span>Chat with Pastry</span>
+                <button class="close-btn" onclick="toggleChat()">×</button>
+            </div>
+            <div class="chat-logs" id="chat-logs">
+                <div class="bot-msg">Hello! Ask me anything about sweets or just say hi!</div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="user-input" placeholder="Type a message..." autocomplete="off">
+                <button id="send-btn" onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+    </div> 
+
+    <footer class="creme-footer">
+  <div class="footer-container">
+
+
+    <div class="footer-brand">
+      <h3>Crème Society</h3>
+      <p>Refinement in every bite.</p>
+    </div>
+
+
+    <div class="footer-links">
+      <h4>The Society</h4>
+      <ul>
+        <li><a href="home.html">Society Home</a></li>
+        <li><a href="aboutus.html">About the Society</a></li>
+        <li><a href="products.html">The Crème Collection</a></li>
+        <li><a href="contactus.html">Connect with the Society</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h4>Get in Touch</h4>
+      <p>📍 Find the Society</p>
+      <p>📞 +501 625-6645</p>
+      <p>📧 creamsociety@gmail.com</p>
+    </div>
+
+    <div class="footer-social">
+      <h4>Join the Circle</h4>
+      <a href="https://www.instagram.com/">Instagram</a><br>
+      <a href="https://www.tiktok.com/en/">TikTok</a><br>
+      <a href="https://www.facebook.com/">Facebook</a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Crème Society. All rights reserved.</p>
+    <p>Crafted with care and love by the Society.</p>
+  </div>
+</footer>
+</html>
